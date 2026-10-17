@@ -604,3 +604,40 @@ body {
     object-fit: contain;
 }
 
+@media (max-width: 1000px) {
+    .menu {
+        justify-content: space-between;
+        padding: 12px 4%;
+        gap: 20px;
+    }
+
+    .menu img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .menu ul strong {
+        gap: 20px;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 0;
+    }
+
+    .hero1, .hero2 {
+        width: 50%;
+        height: auto;
+    }
+
+    .hero1 {
+        padding: 70px 5% 40px;
+    }
+
+    .hero2 {
+        padding: 70px 5% 40px;
+    }
+
+    
+
+}
