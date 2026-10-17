@@ -638,6 +638,619 @@ body {
         padding: 70px 5% 40px;
     }
 
-    
+    .hero2 h1 {
+        font-size: clamp (38px, 5.5vw, 60px);
+    }
 
+    .hero2 p {
+        font-size: 16px;
+    }
+
+    .Happiness {
+        width: 92%;
+        gap: 25px;
+        padding: 35px 25px;
+    }
+
+    .text {
+        width: 42%;
+    }
+
+    .Happiness h2 {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+
+    .text p {
+        padding: 8px;
+    }
+
+    .imagenes {
+        width: 58%;
+        gap: 15px;
+    }
+
+    .imagenes img {
+        width: calc(50% - 8px);
+    }
+
+    .section-yellow {
+        gap: 30px;
+        padding: 100px 7%;
+    }
+
+    .text-yellow {
+        width: 55%;
+    }
+
+    .text-yellow h2 {
+        font-size: clamp(38px, 5.5vw, 58px);
+    }
+
+    .text-yellow p {
+        font-size: 16px;
+    }
+
+    .photo2 {
+        width: 45%;
+    }
+
+    .contenedor-Happy {
+        width: 60%;
+        flex: 0 0 60%;
+        padding: 35px;
+    }
+
+    .imagen-izquierda {
+        width: 40%;
+        flex: 0 0 40%;
+    }
+
+    .contenedor-Happy h2 {
+        font-size: 38px;
+    }
+
+    .grafica {
+        padding: 0;
+    }
+
+    .section-white, .section-try {
+        gap: 35px;
+        padding: 40px 5%;
+    }
+
+    .OUR-photo, .photo-try {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .OUR-photo img, .photo-try img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+    }
+
+    .black-text, .text-black {
+        width: 45%;
+        max-width: 400px;
+    }
+
+    .text-black {
+        text-align: left;
+    }
+
+    .text-black h2 {
+        text-align: left;
+        font-size: 34px;
+    }
+
+    .text-black p {
+        font-size: 16px;
+    }
+
+    .subscribe {
+        gap: 35px;
+        padding: 50px 5%;
+    }
+
+    .contenedor-subscribe {
+        width: 48%;
+        min-width: 0;
+        padding: 35px 25px;
+    }
+
+    .text-subscribe {
+        width: 45%;
+        min-width: 0;
+    }
+
+    .text-subscribe h2 {
+        font-size: 36px;
+    }
+
+    .text-subscribe p {
+        font-size: 16px;
+    }
+
+    .about-photo, .photo-contact {
+        width: 80%;
+    }
+
+    .footer {
+        min-height: 420px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 4%;
+    }
+
+    .menu img {
+        width: 85px;
+    }
+
+    .menu ul strong {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 22px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero1, .hero2 {
+        width: 100%;
+    }
+
+    .hero1 {
+        padding: 35px 8% 0;
+    }
+
+    .photo {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .hero2 {
+        padding: 30px 8% 45px;
+        text-align: center;
+    }
+
+    .hero2 h1 {
+        font-size: clamp(40px, 7vw, 55px);
+    }
+
+    .hero2 p {
+        font-size: 16px;
+    }
+
+    .Happiness {
+        width: 92%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        padding: 30px 25px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .Happiness h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .text p {
+        padding: 5px 0;
+    }
+
+    .imagenes {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .imagenes img {
+        width: calc(50% - 10px);
+    }
+
+    .section-yellow {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        padding: 85px 8% 45px;
+        margin-top: -25px;
+    }
+
+    .text-yellow, .photo2 {
+        width: 100%;
+    }
+
+    .text-yellow h2 {
+        font-size: clamp(38px, 7vw, 50px);
+    }
+
+    .photo2 {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+
+    .contenedor-Happiness {
+        width: 92%;
+        margin: 45px auto;
+    }
+
+    .imagen {
+        flex-direction: column;
+    }
+
+    .imagen-izquierda {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .imagen-izquierda img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .contenedor-Happy {
+        width: 100%;
+        flex: 0 0 auto;
+        min-height: 0;
+        padding: 30px;
+    }
+
+    .contenedor-Happy h2 {
+        font-size: 36px;
+    }
+
+    .contenedor-Happy p {
+        max-width: none;
+    }
+
+    .grafica {
+        justify-content: flex-end;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .section-black, .section-contact {
+        min-height: 0;
+        padding: 35px 20px;
+    }
+
+    .about-photo, .photo-contact {
+        width: 90%;
+    }
+
+    .about-photo img, .photo-contact img {
+        width: 100%;
+        height: auto;
+        max-height: 380px;
+        object-fit: cover;
+    }
+
+    .section-white, .section-try {
+        min-height: 0;
+        gap: 30px;
+        padding: 45px 7%;
+    }
+
+    .OUR-photo, .photo-try {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .OUR-photo img, .photo-try img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .black-text, .text-black {
+        width: 50%;
+        max-width: none;
+    }
+
+    .black-text h2, .text-black h2 {
+        font-size: 30px;
+    }
+
+    .black-text p, .text-black p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        gap: 35px;
+        padding: 45px 7%;
+    }
+
+    .contenedor-subscribe {
+        width: 100%;
+        max-width: 520px;
+        padding: 35px;
+    }
+
+    .text-subscribe {
+        width: 100%;
+        max-width: 520px;
+    }
+
+    .text-subscribe h2 {
+        font-size: 36px;
+    }
+
+    .text-subscribe p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        min-height: 0;
+        gap: 40px;
+        padding: 35px 6% 25px;
+    }
+
+    .footer-superior {
+        gap: 35px;
+    }
+
+    .footer-inferior {
+        gap: 20px;
+        padding-top: 25px;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .menu {
+        padding: 15px 5%;
+    }
+
+    .menu img {
+        width: 75px;
+    }
+
+    .menu ul strong {
+        gap: 8px 15px;
+    }
+
+    .menu a {
+        font-size: 13px;
+    }
+
+    .hero1 {
+        padding: 25px 6% 0;
+    }
+
+    .hero2 {
+        padding: 25px 7% 35px;
+    }
+
+    .hero2 h1 {
+        font-size: 38px;
+    }
+
+    .hero2 p {
+        font-size: 15px;
+    }
+
+    .btn, .btn-black, .btn-yellow {
+        max-width: 100%;
+    }
+
+    .Happiness {
+        width: 92%;
+        padding: 25px 20px;
+        gap: 20px;
+    }
+
+    .Happiness h2 {
+        font-size: 32px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    .imagenes {
+        gap: 12px;
+    }
+
+    .imagenes img {
+        width: calc(50% - 6px);
+    }
+
+    .section-yellow {
+        padding: 65px 7% 40px;
+        gap: 25px;
+    }
+
+    .text-yellow h2 {
+        font-size: 36px;
+    }
+
+    .text-yellow p {
+        font-size: 15px;
+    }
+
+    .contenedor-Happiness {
+        margin: 35px auto;
+    }
+
+    .imagen-izquierda img {
+        max-height: 300px;
+    }
+
+    .contenedor-Happy {
+        padding: 25px 20px;
+    }
+
+    .contenedor-Happy h2 {
+        font-size: 30px;
+    }
+
+    .contenedor-Happy p {
+        font-size: 15px;
+    }
+
+    .grafica img {
+        width: 110px;
+    }
+
+    .section-black, .section-contact {
+        padding: 30px 15px;
+    }
+    .section-black h2, .section-contact h2 {
+        font-size: 27px;
+    }
+    .section-black p, .section-contact p {
+        font-size: 13px;
+    }
+    .about-photo, .photo-contact {
+        width: 100%;
+    }
+    .about-photo img, .photo-contact img {
+        max-height: 280px;
+    }
+    .section-white, .section-try {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        padding: 35px 7%;
+    }
+    .OUR-photo, .photo-try, .black-text, .text-black {
+        width: 100%;
+        max-width: none;
+    }
+    .OUR-photo img, .photo-try img {
+        height: auto;
+        max-height: 350px;
+    }
+    .black-text h2, .text-black h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .black-text p, .text-black p {
+        font-size: 15px;
+    }
+    .text-black {
+        text-align: left;
+    }
+    .section-try .text-black {
+        order: 2;
+    }
+    .section-try .photo-try {
+        order: 1;
+    }
+    .subscribe {
+        gap: 30px;
+        padding: 35px 6%;
+    }
+    .contenedor-subscribe {
+        padding: 25px 20px;
+    }
+    .fila-nombres {
+        gap: 12px;
+    }
+    .campo {
+        min-width: 0;
+    }
+    .campo p {
+        font-size: 12px;
+    }
+    .caja {
+        max-width: 100%;
+    }
+    .texto-formulario {
+        font-size: 10px;
+        overflow-wrap: anywhere;
+    }
+    .text-subscribe h2 {
+        font-size: 32px;
+    }
+    .text-subscribe p {
+        font-size: 15px;
+    }
+    .btn-subscribe {
+        max-width: 100%;
+    }
+    .footer {
+        padding: 30px 6% 20px;
+        gap: 30px;
+    }
+    .footer-enlaces {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .grupo-enlaces a {
+        font-size: 14px;
+    }
+    .footer-inferior {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+    .footer-inferior p {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+    .footer-redes {
+        align-self: flex-end;
+        gap: 14px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .menu ul strong {
+        gap: 8px 10px;
+    }
+    .menu a {
+        font-size: 12px;
+    }
+    .hero2 h1 {
+        font-size: 32px;
+    }
+    .Happiness h2 {
+        font-size: 29px;
+    }
+    .text-yellow h2 {
+        font-size: 31px;
+    }
+    .contenedor-Happy {
+        padding: 22px 16px;
+    }
+    .contenedor-Happy h2 {
+        font-size: 27px;
+    }
+    .fila-nombres {
+        flex-direction: column;
+        gap: 0;
+    }
+    .contenedor-subscribe {
+        padding: 22px 16px;
+    }
+    .text-subscribe h2 {
+        font-size: 29px;
+    }
+    .footer-enlaces {
+        gap: 18px;
+    }
 }
