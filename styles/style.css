@@ -4,22 +4,603 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #fff;
     font-size: 15px;
     line-height: 1.6;
 }
 
-.contenedor{
+.contenedor {
     width: 100%;
     margin: auto;
     background-color: #ffd000;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
+
+.menu ul strong {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.hero{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.hero1{
+    width: 50%;
+    height: 550px;
+    padding-inline: 100px;
+    padding-top: 100px;
+}
+.photo img{
+    width: 100%;
+    height: auto;
+}
+.hero2{
+    width: 50%;
+    height: 550px;
+    background: white;
+    color: black;
+    padding-right: 8%;
+    padding-left: 6%;
+    padding-top: 8%;
+}
+.hero2 h1{
+    font-size: 70px;
+    line-height: 1.1;
+    margin-bottom: 26px;
+}
+.hero2 p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: black;
+    margin-bottom: 27px;
+}
+.btn{
+    padding: 15px 25px;
+    background-color: #ffd000;
+    color: #000;
+    border: none;
+    border-radius: 2px;
+}
+.Happiness{
+    width: 100%;
+    max-width: 1000px;
+    min-height: 280px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-color: #e6e2e2;
+    padding: 40px 15px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+}
+.Happiness h2{
+    text-align: center;
+    color: #ffd000;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+.btn-black{
+    padding: 15px 25px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.section-yellow{
+    background: #ffd000;
+    position: relative;
+    z-index: 1;
+    margin-top: -55px;
+    min-height: 500px;
+    padding: 80px 80px;
+}
+.text{
+    width: 40%;
+}
+.text h2{
+    color: #ffd000;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.1;
+}
+.text p{
+    color: black;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.text .read-more{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.imagenes{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.imagenes img{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+.section-yellow{
+    background: #ffd000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 120px 139px;
+}
+.text-yellow{
+    width: 60%;
+    text-align: left;
+}
+.text-yellow h2{
+    font-size: 70px;
+    line-height: 0.9;
+    margin-bottom: 15px;
+}
+.text-yellow p{
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.btn-yellow{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 8px;
+}
+.btn-yellow strong{
+    font-size: 15px;
+}
+.photo2{
+    width: 50%;
+}
+.photo2 img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.contenedor-Happiness{
+    width: 92%;
+    max-width: 1000px;
+    margin: 80px auto 50px;
+    background-color: #e6e2e2;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.28);
+    overflow: hidden;
+}
+.imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+.imagen-izquierda{
+    width: 50%;
+    flex: 0 0 50%;
+}
+.imagen-izquierda img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.contenedor-Happy{
+    width: 74%;
+    flex: 0 0 74%;
+    min-height: 420px;
+    padding: 60px;
+    background-color: #e6e2e2;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contenedor-Happy h2{
+    color: #ffd000;
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0 0 18px;
+}
+.contenedor-Happy p{
+    max-width: 340px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+.btn-black{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 11px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.grafica{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 300px 0;
+    box-sizing: border-box;
+}
+.grafica img{
+    display: block;
+    width: 145px;
+    height: auto;
+}
+
+
+.section-black {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 12px 20px 30px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.section-black h2 {
+    color: #ffd000;
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+
+.section-black p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.25;
+    margin: 0 auto 25px;
+}
+
+.about-photo  {
+    width: 70;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.about-photo img {
+    display: block;
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-yellow {
+    display: block;
+    margin: 30px auto 40px;
+    padding: 10px 32px;
+    background-color: #ffd000;
+    color: #000;
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.section-white {
+    width: 100%;
+    min-height: 620px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 35px 6%;
+    box-sizing: border-box;
+}
+
+.OUR-photo {
+    width: 50%;
+    max-width: 590px;
+    flex-shrink: 0;
+}
+
+.OUR-photo img {
+    display: block;
+    width: 100%;
+    height: 505px;
+    object-fit: cover;
+}
+
+.black-text {
+    width: 34%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.black-text h2 {
+    color: #000;
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0 0 18px;
+}
+
+.black-text p {
+    color: #000;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0 0 35px;
+}
+
+.section-try {
+    width: 100%;
+    min-height: 100vh;
+    background: #dedcdc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.photo-try {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.photo-try img {
+    width: 590px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-black {
+    width: 34%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.text-black h2 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+
+.text-black p {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.25;
+    margin: 0 auto 25px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    width: 100%;
+    padding: 60px 9%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.contenedor-subscribe {
+    width: 470px;
+    flex-shrink: 0;
+    padding: 45px 42px 35px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+.fila-nombres {
+    display: flex;
+    gap: 22px;
+}
+
+.campo {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.campo p {
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.caja {
+    width: 100%;
+    height: 27px;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+}
+
+.caja-mensaje {
+    height: 126px;
+}
+
+.texto-formulario {
+    margin-top: 16px;
+    font-size: 11px;
+    line-height: 1.2;
+}
+ 
+.text-subscribe {
+    max-width: 400px;
+}
+
+.text-subscribe h2 {
+    color: #f5c400;
+    font-size: 42px;
+    line-height: 1.15;
+    margin: 0 0 12px;
+}
+
+.text-subscribe p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 42px;
+    color: #000;
+}
+
+.btn-subscribe {
+    width: 165px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: default;
+}
+
+.section-contact {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffd000;
+    color: #000;
+    text-align: center;
+    padding: 12px 20px 30px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.section-contact h2 {
+    color: #000;
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+
+.section-contact p {
+    color: #000;
+    font-size: 14px;
+    line-height: 1.25;
+    margin: 0 auto 25px;
+}
+
+.photo-contact {
+    width: 70%;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.photo-contact img {
+    display: block;
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    min-height: 500px;
+    background-color: #000;
+    color: #ffd600;
+    padding: 50px 4%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-superior {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+
+.footer-logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.footer-enlaces {
+    display: flex;
+    gap: 40px;
+}
+
+.grupo-enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.grupo-enlaces a {
+    color: #ffd600;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-inferior {
+    border-top: 1px solid #ccc;
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-inferior p {
+    margin: 0;
+    color: #ffd000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-redes {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-redes img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
